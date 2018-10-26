@@ -65,6 +65,13 @@ namespace booking
             Hide();
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ModifyCustomer mc = new ModifyCustomer();
+            mc.Show();
+            Hide();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             dataGridView1.Visible = true;
