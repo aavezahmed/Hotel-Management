@@ -55,7 +55,9 @@ namespace booking
 
         private void searchCUST_button_Click(object sender, EventArgs e)
         {
-
+            SearchCustomer sc = new SearchCustomer();
+            sc.Show();
+            Hide();
         }
     }
 }
